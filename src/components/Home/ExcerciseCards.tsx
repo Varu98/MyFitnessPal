@@ -4,7 +4,11 @@ import { Stack } from "@mui/material";
 
 const ExcerciseCards = () => {
   return (
-    <Stack direction={"row"} justifyContent={"space-around"}>
+    <Stack
+      sx={{ padding: "3rem", gap: "3rem" }}
+      direction={"row"}
+      justifyContent={"space-around"}
+    >
       <ExcerciseCard />
     </Stack>
   );

@@ -12,6 +12,7 @@ const Banner = () => {
         gap: "1rem",
         justifyContent: "space-between",
         alignItems: "center",
+        minHeight: "100vh",
       }}
     >
       <Box

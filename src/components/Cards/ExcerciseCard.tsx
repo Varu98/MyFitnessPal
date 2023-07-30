@@ -31,14 +31,14 @@ const ExcerciseCard = () => {
             component={"img"}
             sx={{ maxHeight: "5rem", maxWidth: "5rem" }}
           />
-          <Typography variant={"h3"} sx={{ marginLeft: "2rem" }}>
+          <Typography variant={"h4"} sx={{ marginLeft: "2rem" }}>
             {title}
           </Typography>
         </Box>
         <CardContent
-          sx={{ display: "flex", flexDirection: "column", gap: "2rem" }}
+          sx={{ display: "flex", flexDirection: "column", gap: "1rem" }}
         >
-          <Typography variant="h5" component="div">
+          <Typography variant="h6" component="div">
             {subtitle}
           </Typography>
           <Typography sx={{ mb: 1.5 }}>{description}</Typography>
